@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Products() {
   return (
-    <Box>
+    <Box sx={{width: "100%"}}>
       
     </Box>
   )
