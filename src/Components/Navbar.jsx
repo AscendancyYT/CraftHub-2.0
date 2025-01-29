@@ -15,7 +15,9 @@ export default function Navbar() {
         <Link to="/contact">
           <Typography variant="p" sx={{color: "#ddd", fontFamily: "cursive", cursor: "pointer", transition: "all .2s linear"}} className="navigation-link">Контакт</Typography>
         </Link>
-        <Typography variant="p" sx={{color: "#ddd", fontFamily: "cursive", cursor: "pointer", transition: "all .2s linear"}} className="navigation-link">Продукты</Typography>
+        <Link to='/products'>
+          <Typography variant="p" sx={{color: "#ddd", fontFamily: "cursive", cursor: "pointer", transition: "all .2s linear"}} className="navigation-link">Продукты</Typography>
+        </Link>
         <Typography variant="p" sx={{color: "#ddd", fontFamily: "cursive", cursor: "pointer", transition: "all .2s linear"}} className="navigation-link">Профиль</Typography>
       </Box>
     </div>
